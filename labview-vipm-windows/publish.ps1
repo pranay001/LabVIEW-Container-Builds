@@ -46,9 +46,9 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$Owner,
 
-    [string]$ImageName = 'labview-vipm-windows',
+    [string]$ImageName = 'soliton/labview-genvi',
 
-    [string]$Tag = 'dev',
+    [string]$Tag = 'latest-windows',
 
     [switch]$Login,
 
